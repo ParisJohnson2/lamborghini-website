@@ -1,0 +1,64 @@
+.page-header{
+    padding: 16px 60px;
+    display: flex;
+    position: fixed;
+    top: 0;
+    color: #FFFFFF;
+    z-index: 10;
+    justify-content: start;
+    width: 100%;
+    background-color: #181818;
+}
+.page-header .page-logo .lg-img{
+    max-width: 61px;
+    max-height: 62.7px;
+}
+.page-header .page-header__nav{
+    margin-left: 2.5rem;
+}
+.page-header__nav a{
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 0 10px;
+    font-size: 16px;
+    position: relative;
+    top: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+.page-header__nav a:hover{
+    color: rgb(235, 217, 10);
+    transition: .3s ease-in-out;
+}
+.secondpt__nav a{
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 0 10px;
+    font-size: 16px;
+    position: relative;
+    top: 1.5rem;
+    left: 33rem;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+.secondpt__nav a:hover{
+    color: rgb(235, 217, 10);
+    transition: .3s ease-in-out;
+}
+.thirdpt__nav a{
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 0 10px;
+    font-size: 16px;
+    position: relative;
+    top: 1.1rem;
+    left: 35rem;
+}
+.page-header .thirdpt__nav .cmt{
+    font-size: 1.8rem;
+    color: #aaaaaa;
+}
+.page-header .thirdpt__nav .search{
+    font-size: 1.8rem;
+    color: #aaaaaa;
+}
